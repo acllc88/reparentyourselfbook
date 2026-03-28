@@ -1,0 +1,20 @@
+# Robots.txt for reparentyourselfbook.com
+# Reparent Yourself — The Neuroscience Guide to Healing Your Inner Child
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /drafts/
+
+# Allow all major search engine bots explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap location — submit this URL to Google Search Console
+Sitemap: https://reparentyourselfbook.com/sitemap.xml

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- MAIN PAGE — highest priority -->
+  <url>
+    <loc>https://reparentyourselfbook.com/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- BLOG POSTS — targeting low-competition keywords -->
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/how-to-reparent-yourself-step-by-step.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/signs-your-inner-child-is-wounded.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/what-is-anxious-attachment-neuroscience.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/why-affirmations-dont-heal-inner-child.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/inner-child-shame-neuroscience.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://reparentyourselfbook.com/blog/earned-secure-attachment-adults.html</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
