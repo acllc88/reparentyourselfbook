@@ -1,0 +1,30 @@
+{
+  "rewrites": [
+    {
+      "source": "/blog/how-to-reparent-yourself-step-by-step.html",
+      "destination": "/blog-post-1-how-to-reparent-yourself.html"
+    },
+    {
+      "source": "/blog/signs-your-inner-child-is-wounded.html",
+      "destination": "/blog-post-2-signs-inner-child-wounded.html"
+    },
+    {
+      "source": "/blog/what-is-anxious-attachment-neuroscience.html",
+      "destination": "/blog-post-3-anxious-attachment-neuroscience.html"
+    },
+    {
+      "source": "/blog/why-affirmations-dont-heal-inner-child.html",
+      "destination": "/blog-post-4-why-affirmations-dont-work.html"
+    },
+    {
+      "source": "/blog/inner-child-shame-neuroscience.html",
+      "destination": "/blog-post-5-shame-neuroscience.html"
+    },
+    {
+      "source": "/blog/earned-secure-attachment-adults.html",
+      "destination": "/blog-post-6-earned-secure-attachment.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
