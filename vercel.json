@@ -1,30 +1,73 @@
 {
   "rewrites": [
     {
+      "source": "/blog/how-to-reparent-yourself-step-by-step",
+      "destination": "/blog-post-1-how-to-reparent-yourself.html"
+    },
+    {
       "source": "/blog/how-to-reparent-yourself-step-by-step.html",
       "destination": "/blog-post-1-how-to-reparent-yourself.html"
+    },
+    {
+      "source": "/blog/signs-your-inner-child-is-wounded",
+      "destination": "/blog-post-2-signs-inner-child-wounded.html"
     },
     {
       "source": "/blog/signs-your-inner-child-is-wounded.html",
       "destination": "/blog-post-2-signs-inner-child-wounded.html"
     },
     {
+      "source": "/blog/what-is-anxious-attachment-neuroscience",
+      "destination": "/blog-post-3-anxious-attachment-neuroscience.html"
+    },
+    {
       "source": "/blog/what-is-anxious-attachment-neuroscience.html",
       "destination": "/blog-post-3-anxious-attachment-neuroscience.html"
+    },
+    {
+      "source": "/blog/why-affirmations-dont-heal-inner-child",
+      "destination": "/blog-post-4-why-affirmations-dont-work.html"
     },
     {
       "source": "/blog/why-affirmations-dont-heal-inner-child.html",
       "destination": "/blog-post-4-why-affirmations-dont-work.html"
     },
     {
+      "source": "/blog/inner-child-shame-neuroscience",
+      "destination": "/blog-post-5-shame-neuroscience.html"
+    },
+    {
       "source": "/blog/inner-child-shame-neuroscience.html",
       "destination": "/blog-post-5-shame-neuroscience.html"
+    },
+    {
+      "source": "/blog/earned-secure-attachment-adults",
+      "destination": "/blog-post-6-earned-secure-attachment.html"
     },
     {
       "source": "/blog/earned-secure-attachment-adults.html",
       "destination": "/blog-post-6-earned-secure-attachment.html"
     }
   ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
 }
